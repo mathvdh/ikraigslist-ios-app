@@ -1,0 +1,144 @@
+<!--
+Author: Brad Micallef
+http://www.manage-your-project.com
+Version: 1.0
+Date: 20070728
+
+This template may be used as-is, modified, and replicated and made into a derivitive work, so long 
+as this comment block remains intact.
+
+HTML & CSS Template for iPhone
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+	<head>
+		<title>HTML & CSS Template for iPhone</title>
+		<meta name="viewport" content="user-scalable=false; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0" />
+		<meta name="viewport" content="width = 320" />
+		<!-- iPhone specific style -->
+		<style type="text/css" media="only screen and (max-device-width: 480px)">
+			@import url( iPhone_template-1_style.css );
+		</style>
+		<!-- Non-iPhone specific style -->
+		<style type="text/css" media="screen and (min-device-width: 481px)">
+			@import url( iPhone_template-1_style.css );
+			/* This is the same style for testing in Safari 3 on OS X and Windows */
+			/* Substitute your own style for non-iPhone display
+		</style>
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	<body style="-webkit-text-size-adjust:none">
+		
+		<!-- Basic content template START -->
+	
+		<h1 align="center"><span class="style1">ikraigslist</span> help</h1>
+		<div class="rectangle">
+			<div class="content">
+				
+		  <p>Welcome to the ikraigslist iphone application help page.</p>
+		  <p>Please choose your section :</p>
+		  <ul>
+		    <li><a href="#introduction">Introduction</a></li>
+		    <li><a href="#before_use">Before you start using the application</a></li>
+		    <li><a href="#browse_ads">Browse and search craigslist</a></li>
+		    <li><a href="#saved_searchs">Save your common searchs</a></li>
+		    <li><a href="#saved_ads">Save interesting ads for offline browsing</a></li>
+		    <li><a href="#preferences">Preferences</a></li>
+		  </ul>
+
+		  </div>
+		</div>
+		
+		<!-- Common HTML tags -->
+	<h1><a name="introduction"></a>Introduction :</h1> 
+		<div class="rectangle">
+		  <div class="content">
+		    <h2>Foreword</h2>
+		    <p>The ikraigslist iphone application has been designed with two principles in mind : simplicity and lightness but still being powerful enough to find what you want on craigslist. </p>
+		    <p>The application allow you to browse the craigslist website, to search with all the standard craiglist criterias, to save your common searchs as well as saving interesting ads for offline browsing.</p>
+		    <p>The application only parse the craigslist rss feeds and display it using all the iphone UI features.</p>
+		    <h2>Application interface</h2>
+		    <p>The interface is based on a Tab Bar with 5 tabs, click on any of the images bellow to see help for the corresponding tab :</p>
+		      <center>
+			  <table id="Table_01" width="250" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+							<a href="#browse_ads"><img id="TABBAR_01" src="TABBAR_01.gif" width="46" height="36" alt="" /> </a></td> 
+						<td>
+							<a href="#saved_searchs"><img id="TABBAR_02" src="TABBAR_02.gif" width="56" height="36" alt="" /> </a></td>
+						<td>
+							<a href="#saved_ads"><img id="TABBAR_03" src="TABBAR_03.gif" width="47" height="36" alt="" /></a></td> 
+						<td>
+							<a href="#preferences"><img id="TABBAR_04" src="TABBAR_04.gif" width="59" height="36" alt="" /></a></td> 
+						<td>
+							<a href="#help"><img id="TABBAR_05" src="TABBAR_05.gif" width="42" height="36" alt="" /></a></td> 
+					</tr>
+				</table>   
+				</center>
+			</div>
+		</div>
+		
+		<h1><a name="before_use"></a>Before you start using the application :</h1> 
+		
+		<div class="rectangle">
+		  <div class="content">
+		    <p>2 things needs to be configured before using the application :</p>
+		    <ol>
+		      <li>Choose a craigslist location in the <a href="#preferences">Preferences tab</a>.</li>
+	          <li>Choose a craigslist section in the <a href="#browse_ads">Browse tab</a>.</li>
+		    </ol>
+		    <p>For all the functionnalities of the application you need a connection to the internet (either though 2G,3G or Wifi), without an internet connection, you can only  consult <a href="#saved_ads">the ads you saved beforehand</a>.</p>
+	      </div>
+		</div>
+		
+	<h1><a name="browse_ads"></a>Browse and search craigslist :</h1> 
+		
+		<div class="rectangle">
+			<div class="content">
+			  <p>The browse page is made of three navigation views : </p>
+				<p id="code1">Home &gt; Matched items lists &gt; Ad detail view</p>
+				<p>In the <span id="code2"> Home </span> you will choose your section and define the search criterias, you will also be able to save your search and to launch it.</p>
+				<p>In the <span id="code3"> Matched items lists </span> you will see the items found on craigslist that are in the chosen section and match your search criterias.</p>
+				<p>In the <span id="code4"> Ad detail view </span> you will see the details of the ad and you will be able to save it , to send it by email, to send an email to the ad poster and to see the items images (if any) in a iphone image slide.</p>
+		  </div>
+		</div>
+		
+		<h1><a name="saved_searchs"></a>Save your common searchs</h1> 
+		<div class="rectangle">
+		  <div class="content">
+		    <p>If you always use the same criterias :</p>
+		    <p>Firstly the application save your last search before quitting so that you will not have to enter it anymore the next time you start the application.</p>
+		    <p>Secondly you can save a custom search if you will need to do it again, to do this just go in the browse tab, select your section and criterias and hit the save button, you will be asked for a name and then this name will appear in the list in the saved searchs tab. Just click on this item in the saved searchs list and this search is launched.</p>
+	      </div>
+		</div>
+		
+		<h1><a name="saved_ads"></a>Save interesting ads for offline browsing :</h1>
+		
+		<div class="rectangle">
+		  <div class="content">If you find an ad interesting and you want to keep it for later viewing. Just hit the 'save' button in the details of this ad, you will be asked for a name and then this ad will appear in the saved ads tab. Just click on this ad in the saved ads tab and you will be able to consult it normally and offline.</div>
+		</div>
+		
+	<h1><a name="preferences"></a>Preferences :</h1>
+		<div class="rectangle">
+		  <div class="content">
+		    <p>In the preferences tab, you can select the application preferences :</p>
+		    <p>You can choose the craigslist location that should be used.</p>
+		    <p>You can also select the maximum number of ads that should be returned by a search.</p>
+		    <p>And finally you can erase your saved searchs, your saved ads and reset all the application settings (beware that if you reset all the application settings, you will also erase all the saved searchs and ads.</p>
+		  </div>
+		</div>
+		
+	<h1><a name="help"></a>Help :</h1>
+		<div class="rectangle">
+		  <div class="content">
+		    <p>This document.</p>
+		</div>
+		</div>
+		
+		<hr/>
+			<p>ikraigslist help - 2009</p>
+
+</body>
+</html>

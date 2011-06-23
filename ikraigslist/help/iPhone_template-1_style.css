@@ -1,0 +1,153 @@
+/*Layout and presentation*/
+body, html
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-color: rgb( 197, 204, 211 );
+}
+body
+{
+	padding: 10px;
+	background : url("help_logo.png") top left;
+	background-repeat: no-repeat;
+}
+
+
+	#code1 {
+		font-size:small; 
+		font-family:serif;
+	}
+	
+	#code2 {
+		font-size:small; 
+		font-family:serif;
+	}
+
+	#code3 {
+		font-size:small; 
+		font-family:serif;
+	}
+
+	#code4 {
+		font-size:small; 
+		font-family:serif;
+	}
+
+	.style1 {
+		color: #2e0057;
+		font-weight:normal;
+		font-family:serif;
+	}
+
+	a img {border:none;}
+
+div.content
+{
+	padding: 10px;
+}
+
+
+/*Font family & sizes*/
+div.content, h1, div.rectangle h2, div.cell
+{	
+	font-family: helvetica;
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+}
+div.rectangle p, div.rectangle a, div.rectangle li, div.content, input, textarea, select
+{	
+	font-family: helvetica;
+	font-weight: normal;
+	font-size: 15px;
+		/* Apple specifies inner-rectangle text to be 17px 	*/
+						/* However in practice this does not appear to be 	*/
+						/* correct. Feel free to change this to suit.		*/
+}
+div.rectangle span
+{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 15px;
+}
+/*HTML elements*/
+div.rectangle
+{
+	overflow: hidden;	/* Prevents long unbroken text strings from */
+						/* pushing the viewport off-screen			*/
+	margin-bottom: 7px;
+	background-color: #fff;
+	border: 1px solid rgb( 217, 217, 217 );
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+h1, div.rectangle h2, div.rectangle span, div.rectangle p, div.rectangle a, div.rectangle li
+{
+	padding: 0;
+	margin: 0;
+}
+h1
+{
+	font-weight: bold;
+	color: rgb( 76, 86, 108 );
+}
+div.rectangle p
+{
+	margin-bottom: 7px;
+}
+div.rectangle h2
+{
+	font-weight: bold;
+}
+div.rectangle a
+{
+	color: rgb( 76, 86, 108 );
+}
+hr
+{
+	border: 0;
+	height: 1px;
+	background-color: rgb( 197, 204, 211 );
+	clear: both;
+}
+/*Field elements*/
+input, textarea, select
+{
+	width: 95%;
+}
+input.radio, input.checkbox, input.button, input.submit
+{
+	width: auto;
+}
+input.button, input.submit
+{
+	margin-bottom: 10px;
+}
+input.button
+{
+	float: left;
+}
+input.submit
+{
+	float: right;
+}
+/*iPhone Cell element*/
+div.cell
+{
+	overflow: hidden;
+	padding: 10px;
+	border-bottom: 1px solid rgb( 197, 204, 211 );
+	position: relative;
+}
+	div.cell div.link
+	{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		width: 20px;
+		height: 20px;
+		background-image: url( ../img/link.png );
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
